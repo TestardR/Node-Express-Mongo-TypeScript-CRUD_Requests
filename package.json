@@ -1,0 +1,20 @@
+{
+  "name": "Express_Mongo_TypeScript",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/mongoose": "^5.5.32",
+    "@types/node": "^12.12.12"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "start": " nodemon dist/server.js"
+  }
+}
